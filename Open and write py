@@ -1,0 +1,13 @@
+if=open("mycap.txt","r")
+print(f.read())
+
+#reading a file
+
+f=open("mycap.txt","r")
+print(f.readline())
+
+#open a file
+
+f=open("mycap.txt","r")
+for x in f:
+  print(x)
